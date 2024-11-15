@@ -1,0 +1,46 @@
+.appContainer {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chatArea {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.inputButton {
+    background-color: #136ca3;
+    border: none;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.icon
+{
+    width: 2em;
+    height: 2em;
+}
+
+.userInput {
+    background-color: white;
+    border-radius: 1em;
+    flex: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.userInput:focus {
+    outline: none;
+}
+
+.inputArea {
+    display: flex;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+}
